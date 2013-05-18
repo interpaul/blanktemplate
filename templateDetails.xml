@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.7//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.7/template-install.dtd">
+<extension version="2.5" type="template" client="site" method="upgrade">
+	<name>blanktemplate</name>
+	<version>1.0.0</version>
+	<creationDate>May 2013</creationDate>
+	<author>Paul Radzkov</author>
+	<authorEmail>radzkov@gmail.com</authorEmail>
+	<authorUrl>http://paulradzkov.com</authorUrl>
+    <copyright>Copyright © Paul Radzkov, © YOOtheme GmbH</copyright>
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<description>Light Template by Paul Radzkov based on Warp Template Framework by YOOtheme GmbH</description>
+	<files>
+		<filename>checksums</filename>
+		<filename>apple_touch_icon.png</filename>
+		<filename>changelog.php</filename>
+		<filename>component.php</filename>
+		<filename>config.php</filename>
+		<filename>config.xml</filename>
+		<filename>config.default</filename>
+		<filename>error.php</filename>		
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>		
+		<filename>raw.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>layouts</folder>
+		<folder>styles</folder>
+		<folder>warp</folder>
+	</files>
+	<positions>
+		<position>absolute</position>
+		<position>search</position>
+		<position>menu</position>
+		<position>breadcrumbs</position>
+		<position>sidebar</position>
+		<position>grid</position>
+		<position>footer</position>
+	</positions>
+	<config>
+		<fields name="params" addfieldpath="/templates/blanktemplate/warp/systems/joomla/config/elements">	
+			<fieldset name="basic">		
+		    	<field name="config" type="config" label="Config" description="" default="" />			
+			</fieldset>
+		</fields>
+	</config>
+</extension>
